@@ -10,3 +10,6 @@ Web工程第10组
 | 21009200899 | 李晋爽 | buyuzhenjie |
 | 21009200249 | 段磊军 | MaWinds |
 | 22030570001 | 董文豪 | wenhaodong02 |
+
+前端仓库：https://github.com/HelloWorldGitHub114/web-front
+后端仓库：https://github.com/HelloWorldGitHub114/web-back

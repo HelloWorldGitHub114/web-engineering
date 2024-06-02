@@ -1,0 +1,232 @@
+测试策略
+名称： Web Services 
+描述： 该策略包含所有 SOAP 相关测试。 
+测试（ 106 ）： 
+名称 					严重性 
+Apache Struts 2 OGNL Action/Redirect 探索	High
+应用程序调试方式实施			Low
+隐藏参数中的电子邮件地址			Informational
+电子邮件参数电子欺骗			Informational
+文件上载					High
+电子盗窃					Low
+无签名的 __VIEWSTATE 参数			Low
+检测到 HTTP 请求转发（Web 代理）		Informational
+启用了 TRACE 和 TRACK HTTP 方法		Low
+发现 IBM WebSphere 样本站点			High
+潜在文件上载				Informational
+远程 RSS 订阅源包含				Informational
+非 SOAP Web Service 访问			Low
+不安全的第三方链接 (target="_blank")		Low
+反映的不安全链接 (target="_blank")		Medium
+已存储的 target='_blank' 链接			Medium
+不充分帐户封锁				Medium
+可预测的登录凭证				High
+IIS localstart.asp 可能的蛮力			High
+登录错误消息凭证枚举			Medium
+Microsoft IIS Phone Book Service 缓冲区溢出	High
+启用了不安全的“OPTIONS”HTTP 方法		Low
+链接注入（便于跨站请求伪造）			Medium
+通过框架钓鱼				Medium
+使用 MD5 作为 SSL 证书签名算法		Medium
+WebSphere Application Server 管理控制台链接注入（便于跨站点请求伪造）	Medium
+通过管理员控制台进行的 WebSphere 多重链接注入	Medium
+通过管理员控制台进行的 WebSphere 多重网络钓鱼	Medium
+Apache Tomcat 弱缺省管理帐户凭证		High
+Apache JServ 弱令牌算法			High
+跨站点请求伪造				Medium
+Apache Axis2/Java 跨站点脚本编制		High
+路径中的 Apache Geronimo 跨站点脚本编制	High
+Apache mod_perl "Apache::Status" / "Apache2::Status" 跨站点脚本编制		High
+Apache Struts2 多重跨站点脚本编制		High
+Apache Struts 多重跨站点脚本编制		High
+文件名中的 Apache Struts 跨站点脚本编制	High
+跨站点脚本编制				High
+HTTP Referer 头跨站点脚本编制		High
+User-Agent Header 跨站点脚本编制		High
+”IBM WebSphere“..”跨站点脚本编制		High
+基于 DOM 的跨站点脚本编制			High
+存储的跨站点脚本编制			High
+IBM HTTP Server Expect 头跨站点脚本编制	High
+IBM WebSphere Application Server 管理控制台多重跨站点脚本编制	High
+IBM WebSphere Application Server 管理控制台跨站点脚本编制	High
+IBM WebSphere Portal Server 和 Lotus Web Content Management 跨站点脚本编制	High
+Microsoft IIS idc 文件扩展名跨站点脚本编制	High
+Microsoft Windows MHTML 跨站点脚本编制	Medium
+使用“恶意 RSS 订阅源包含”的“跨站点脚本编制”	High
+管理员控制台中的 WebSphere 多重跨站点脚本编制	High
+通过远程文件包含进行跨站点脚本编制		High
+使用 URL 编码的 Apache Tomcat 目录列表	Medium
+目录列表					Medium
+Microsoft IIS Bdir.htr 目录列表			Medium
+发现目录列表模式				Low
+IBM WebSphere Application Server 目录列表	Medium
+服务器端 JavaScript 目录列表			Medium
+格式字符串远程命令执行			High
+HTTP 响应分割				Medium
+存储的响应分割				Medium
+Apache access_log 信息泄露			Low
+Apache error_log 信息泄露			Low
+Apache JServ 环境状态信息泄露		Low
+Apache Multiviews 攻击			Low
+Apache PHP 源代码泄露			Low
+Apache server-info 信息泄露			Low
+Apache server-status 信息泄露			Low
+Apache stronghold-info 信息泄露		Low
+Apache stronghold-status 信息泄露		Low
+Apache Tomcat 无效字符路径泄露		Low
+ASP.NET 定制错误路径泄露			Low
+发现可高速缓存的登录页面			Low
+发现可高速缓存的 SSL 页面			Low
+Global.asa 文件敏感信息检索			Low
+检测到隐藏目录				Low
+NT 和 IIS 数据流交替				Low
+OpenSSL TLS Heartbeat 缓冲区通读（又名 Heartbleed 错误）	High
+未实施加密				Low
+Microsoft IIS“Translate: f”源代码泄露		Low
+JavaScript 劫持				Low
+Microsoft IIS 4.0 未授权的数据库访问		Low
+应用程序输入限制旁路			Low
+应用程序逻辑 Subversion			Informational
+错误页面路径泄露				Low
+在降级的旧加密上填充 Oracle（也称为 POODLE）	Medium
+会话 cookie 中缺少 HttpOnly 属性		Low
+加密会话（SSL）Cookie 中缺少 Secure 属性	Medium
+Robots.txt 文件 Web 站点结构暴露		Low
+HTML 注释敏感信息泄露			Informational
+已解密的敏感数据				Low
+.NET 解决方案文件下载			Low
+发现临时目录				Low
+未授权的 Java Servlet 源代码访问		Low
+应用程序错误				Informational
+已解密的 __VIEWSTATE 参数			Low
+发现压缩目录				Low
+“Content-Security-Policy”头缺失或不安全	Low
+“X-Content-Type-Options”头缺失或不安全	Low
+过度许可的 CORS 访问测试			Low
+Apache AXIS 样本 Servlet 信息泄露		Low
+包含文件源代码泄露				Low
+Global.asa 和 Global.asax 备份副本检索		Low
+IIS Global.asa 和 Global.asax 检索		Low
+含 .NET 的 Microsoft IIS 路径泄露		Low
+Microsoft ASP.NET“Application Trace”信息泄露	Low
+Microsoft IIS 样本应用程序物理路径泄露		Low
+Apache Tomcat 示例 Servlet 路径泄露		Low
+DigiNotar 发放的 SSL 证书易受攻击		Low
+.NET CS 文件下载				Low
+检测到 .NET output-build.txt 文件		Low
+.NET VB 文件下载				Low
+发现 Apache 缺省安装页面模式			Informational
+自动填写未对密码字段禁用的 HTML 属性		Low
+发现信用卡号模式（American Express）		Low
+在未加密连接中发现信用卡号模式 (American Express)	Low
+发现信用卡号模式（Diners Club）		Low
+在未加密连接中发现信用卡号模式 (Diners Club)	Low
+发现信用卡号模式（Discover）			Low
+在未加密连接中发现信用卡号模式 (Discover)	Low
+发现信用卡号模式（MasterCard）		Low
+在未加密连接中发现信用卡号模式 (MasterCard)	Low
+发现信用卡号模式				Low
+在未加密连接中发现信用卡号模式		Low
+发现信用卡号模式（Visa）			Low
+在未加密连接中发现信用卡号模式 (Visa)		Low
+发现电子邮件地址模式			Informational
+发现 IIS 缺省安装页面模式			Informational
+发现内部 IP 泄露模式				Informational
+发现可能的服务器路径泄露模式			Informational
+发现敏感文件				Informational
+发现 Web 应用程序源代码泄露模式		Low
+发现社会保险号模式				Low
+在未加密连接中发现社会保障号码模式		Low
+SSL 请求中的查询参数			Low
+HTTP Strict-Transport-Security 头缺失或不安全	Low
+IBM WebSphere Application Server 文件泄露	Low
+IBM WebSphere 配置信息泄露			Low
+IBM WebSphere 调试方式实施			Low
+发现 IBM WebSphere 文档			Low
+IBM WebSphere 密码存储为明文		Low
+IBM WebSphere plugin-cfg.xml 信息泄露	Low
+Microsoft Active Server Pages 信息泄露		Low
+启用了 Microsoft ASP.NET 调试		Low
+Microsoft IIS servervariables_vbscript.asp 信息泄露	Low
+Microsoft IIS 缺少 Host 头信息泄露		Low
+在参数值中找到了内部 IP 公开模式		Low
+在参数值中找到了社会安全号模式		Low
+查询中的密码参数				High
+PHP-CGI 查询字符串漏洞			High
+VBS 文件源泄露				Low
+跨帧脚本编制防御缺失或不安全			Low
+“X-XSS-Protection”头缺失或不安全		Low
+不安全索引				Medium
+HTTP PUT 方法站点篡改			High
+使用 HTTP 动词篡改的认证旁路			Medium
+使用 SQL 注入的认证旁路			High
+使用非认证用户的特权升级			High
+使用特权不足用户的特权升级			High
+Apache Tomcat Context Administration Tool 无特权访问	Medium
+通过 Cookie 操纵的可能的垂直特权升级		Low
+永久 Cookie 包含敏感的会话信息		Low
+注销后会话未失效				High
+已解密的登录请求				High
+基本认证未加密				High
+SSL 证书将要到期				Informational
+SSL 证书到期				Informational
+SSL 证书尚未生效				Informational
+SSL 证书域名不匹配				Informational
+发现自签署 SSL 证书				Informational
+整数溢出					Informational
+LDAP 注入				High
+SMTP MX 注入				High
+Poison Null Byte Windows 文件检索		High
+Poison Null Byte Unix 文件检索		High
+Apache Struts 2“includeParams”远程命令执行	High
+参数系统调用代码注入			High
+Microsoft IIS Unicode 目录遍历		High
+文件参数 Shell 命令注入			High
+Java 编组代码执行				High
+Apache Struts2 远程代码执行			High
+Nimda 蠕虫远程命令执行			High
+Perl 评估的参数 Shell 命令注入			High
+通过 Bash 进行远程命令执行（也称为 Shellshock，也称为 Bashdoor）Bashdoor)	High
+IIS IDQ.DLL 目录遍历				Medium
+目录遍历任意文件下载			Medium
+Unix 文件参数变更				Medium
+Windows 文件参数变更			Medium
+IBM Tivoli Access Manager for e-business 路径遍历	Medium
+检测到应用程序测试脚本			Informational
+归档文件下载				Low
+Visual Studio .NET 文件下载			Low
+包含文件下载				Low
+临时文件下载				Low
+直接访问管理页面				Low
+JSP 文件包含				High
+通过远程文件包含事项进行发布			High
+PHP 远程文件包含				High
+Cookie 上的 PHP 远程文件包含			High
+Apache Struts2 ClassLoader 操作		High
+针对 SSL/TLS 的浏览器探索（又名 BEAST）	Informational
+通过超文本的自适应压缩进行的浏览器侦查和渗透（又名 BREACH）	Medium
+支持不推荐使用的 SSL 版本			Medium
+Decrypting RSA with Obsolete and Weakened eNcryption（即 DROWN)	High
+重构 RSA 导出键（又称为 FREAK）		Medium
+Logjam（Diffie-Hellman 密钥交换降级）		Medium
+检测到 RC4 密码套件				Medium
+检测到 SHA-1 密码套件			Low
+支持弱 SSL 密码套件				Medium
+源 IP 已公开				Medium
+外部会话 ID 实施				High
+会话 ID 未更新				Medium
+会话定置					High
+SQL 盲注					High
+MongoDB NoSQL 注入			High
+SQL 注入命令执行				High
+SQL 注入					High
+参数值中的 SQL 查询				Informational
+发现数据库错误模式				Low
+探测 MongoDB				High
+服务器端伪指令文件检索			High
+发现不存在的域的链接			High
+通过 URL 重定向钓鱼				High
+IBM WebSphere ibm_security_logout URL 重定向	High
+XML 外部实体文件泄露			High
+Apache AXIS XML 外部实体文件检索		High
+XPath 注入				Medium

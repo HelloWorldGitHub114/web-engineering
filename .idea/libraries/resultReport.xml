@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resultReport">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Test Document/Performance Test/resultReport.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
